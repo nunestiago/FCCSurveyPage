@@ -1,79 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Is it possible for Tiago to becoma a DEV?</title>
 
-    <meta name="description" content="This message will show up on the search">    
+    <meta
+      name="description"
+      content="This message will show up on the search"
+    />
 
-    <link rel="stylesheet" href="style.css" type="text/css">
-    
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css" type="text/css" />
 
-</head>
-<body>
-
-    <div class="container">
-        <div class="title">
-    <h1 id="title">Is it possible to become a DEV?</h1>
-    <p id="description">Let us know your opinion on this subject</p>
-        </div>
-
-        <div class="formbox">
-    <form id="survey-form">
-
-        <label id="name-label" for="name">Name:</label>
-        <input id="name" type="text" placeholder="Inster your name" autofocus required>
-        <br><br>
-
-        <label id="email-label" for="email">Email:</label>
-        <input id="email" type="email" placeholder="Insert e-mail" required>
-        <br><br>
-
-        <label id="number-label" for="number">Age:</label>
-        <input id="number"type="number" min="18" max="90" placeholder="What's your age? (Optional)">
-        <br><br>
-
-        <label for="dropdown">What kind of superpower is needed?</label><br><br>
-            <select id="dropdown" name="superpower" required>
-                <option disabled selected value> Select main one</option>
-                <option value="Patience">Lots of patience</option>
-                <option value="Commitment">Commitment</option>
-                <option value="Willpower">Willpower</option>
-                <option value="nolife">No life</option>
-                <option value="masoquism">Masoquism</option>
-            </select><br><br>
-
-        <label for="radio">Would you suggest a friend to become a DEV?</label><br><br>
-                <input type="radio" name="suggestion" value="1">Yes, he's can do it! <br>
-                <input type="radio" name="suggestion" value="2">Yes, I hate him/her. <br>
-                <input type="radio" name="suggestion" value="3">No, I care. <br>
-                <input type="radio" name="suggestion" value="4">No, he/she's just can't <br><br>
-
-        <label for="checkbox">Select how you like to suffer</label> <br>
-            <input name="suffer" type="checkbox" value="hard">
-            I like challenges. <br>
-            <input name="suffer" type="checkbox" value="melt">
-            I like when my brain melt. <br>
-            <input name="suffer" type="checkbox" value="learner">
-            I like to learn from pain. <br>
-            <input name="suffer" type="checkbox" value="success">
-            Success comes only after 1000000 attemps. <br>
-            <input name="suffer" type="checkbox" value="nosuffer">
-            I don't like to suffer. <br>
-
-        <p>Any further comments here</p>
-            <textarea id="Comments" rows="4" cols="50">Comments here</textarea>
-            <br>
-
-        <input id="submit" type="submit" value="Submit pain">
-        
-
-
-    </form>
-        </div>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="title">
+      <h1 id="title">Is it possible to become a DEV?</h1>
+      <p id="description">Let us know your opinion on this subject</p>
     </div>
-</body>
+    <div class="container">
+      <div class="formbox">
+        <form id="survey-form">
+          <label id="name-label" for="name">Name:</label>
+          <input
+            id="name"
+            type="text"
+            placeholder="Insert your name"
+            autofocus
+            required
+          />
+          <br /><br />
+
+          <label id="email-label" for="email">Email:</label>
+          <input id="email" type="email" placeholder="Insert e-mail" required />
+          <br /><br />
+
+          <label id="number-label" for="number">Age:</label>
+          <input
+            id="number"
+            type="number"
+            min="18"
+            max="90"
+            placeholder="What's your age? (Optional)"
+          />
+          <br /><br />
+
+          <label for="dropdown">What kind of superpower is needed?</label><br />
+          <select id="dropdown" name="superpower" required>
+            <option disabled selected value>Select main one</option>
+            <option value="Patience">Lots of patience</option>
+            <option value="Commitment">Commitment</option>
+            <option value="Willpower">Willpower</option>
+            <option value="nolife">No life</option>
+            <option value="masoquism">Masoquism</option></select
+          ><br /><br />
+
+          <label for="radio">Would you suggest a friend to become a DEV?</label
+          ><br />
+          <div class="radio">
+            <input type="radio" name="suggestion" value="1" />Yes, he/she can do
+            it!
+            <br />
+            <input type="radio" name="suggestion" value="2" />Yes, I hate
+            him/her.
+            <br />
+            <input type="radio" name="suggestion" value="3" />No, I care for
+            people sanity. <br />
+            <input type="radio" name="suggestion" value="4" />No, he/she's just
+            can't <br /><br />
+          </div>
+
+          <label for="checkbox">Select how you like to suffer</label> <br />
+          <div class="checkbox">
+            <input name="suffer" type="checkbox" value="hard" />
+            I like challenges. <br />
+            <input name="suffer" type="checkbox" value="melt" />
+            I like when my brain melt. <br />
+            <input name="suffer" type="checkbox" value="learner" />
+            I like to learn from pain. <br />
+            <input name="suffer" type="checkbox" value="success" />
+            Success comes only after 1000000 attemps. <br />
+            <input name="suffer" type="checkbox" value="nosuffer" />
+            I don't like to suffer. <br />
+          </div>
+
+          <p>Any further comments here</p>
+          <textarea id="Comments" rows="4" cols="50">Comments here</textarea>
+          <br />
+
+          <input id="submit" type="submit" value="Submit pain" href="" />
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
